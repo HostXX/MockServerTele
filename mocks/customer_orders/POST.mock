@@ -1,4 +1,9 @@
-#import './code.js';
-Content-Type: application/json
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
 
-#import './scriptPost.js';
+{
+    "SFDC_Id" : "1",
+    "ERP_Id" : "12aew",
+    "ERP_CreationDate" : "20/20/2021",
+    "Message" : "messageeee"
+}

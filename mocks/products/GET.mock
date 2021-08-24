@@ -1,15 +1,23 @@
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Authorization: "Bearer sdasfasdfadfasdfasd"
+Authorization: "Bearer este-es-el-jwt"
 
-{
-    "products" : [{
+[
+    { 
         "Name": "CocaBilly",
-        "Product_ERP_ID__c": "",
-        "Category__c": "",
-        "Description__c": "",
-        "Product_Status__c": "In Stock",
-        "Picture_URL__c": ""
+        "Product_ERP_ID": "KJKJKJQKW2",
+        "Category": "carbonated",
+        "Description": "",
+        "Product_Status": "In Stock",
+        "Picture_URL": ""
         },
-    ]
-}
+        {
+        "Name": "CocaMauro",
+        "Product_ERP_ID": "GJGGESQ342",
+        "Category": "carbonated",
+        "Description": "A refreshing soda with the flavor of a Mauro's though",
+        "Product_Status": "In Stock",
+        "Picture_URL": ""
+    } 
+]
+

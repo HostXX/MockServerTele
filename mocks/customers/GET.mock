@@ -1,38 +1,67 @@
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Authorization: "Bearer sdasfasdfadfasdfasd"
 
-{
-    "Customers" : [
-  {
-    "id": 1,
-    "Name": "account1 ",
-    "ParentId": "",
-    "Parent_Account__c": "",
-    "CustomerId": 1,
-    "Company_Code__c": "",
-    "Description": "A client",
-    "Sales_Org__c": "",
-    "Vertical__c": "",
-    "SubVertical__c": "",
-    "Customer_Type__c": "Retail",
-    "Payment_Method__c": "Cash",
-    "Fraud__c": "false",
-    "Is_Active__c": "",
-    "Account Number": "ABC24689753",
-    "Telephone_Number__c": "000-000-0000",
-    "Buying_Group__c": "",
-    "Address": {
-      "Id": 1,
-      "Name": "test",
-      "Attn": "test",
-      "StreetName": "test",
-      "CityName": "test",
-      "State": "TT",
-      "PostCode": 89098,
-      "Tel": "(000)- 000-0000",
-      "Favorite": true,
-      "AccountId": 1
+[
+    {
+      "External_ERP_id": 1,
+      "Name": "account1",
+      "ParentId": "",
+      "Parent_Account": "",
+      "CustomerId": 1,
+      "Company_Code": "",
+      "Description": "A client",
+      "Sales_Org": "",
+      "Vertical": "",
+      "SubVertical": "",
+      "Customer_Type": "Retail",
+      "Payment_Method": "Cash",
+      "Fraud": "false",
+      "Is_Active": "",
+      "Account Number": "ABC24689753",
+      "Telephone_Number": "000-000-0000",
+      "Buying_Group": "",
+      "Address": {
+        "ERP_Address_Id": 1,
+        "Name": "test",
+        "Attn": "test",
+        "StreetName": "test",
+        "CityName": "test",
+        "State": "TT",
+        "PostCode": 89098,
+        "Tel": "(000)- 000-0000",
+        "Favorite": true,
+        "AccountId": 1
+      }
+    },
+    {
+      "External_ERP_id": 2,
+      "Name": "account2",
+      "ParentId": "",
+      "Parent_Account": "",
+      "CustomerId": 2,
+      "Company_Code": "",
+      "Description": "A client",
+      "Sales_Org": "",
+      "Vertical": "",
+      "SubVertical": "",
+      "Customer_Type": "Retail",
+      "Payment_Method": "Credit/Debit Card",
+      "Fraud": "false",
+      "Is_Active": "",
+      "Account_Number": "ABC24689753",
+      "Telephone_Number": "000-000-0000",
+      "Buying_Group": "",
+      "Address": {
+        "ERP_Address_Id": 2,
+        "Name": "test",
+        "Attn": "test",
+        "StreetName": "test",
+        "CityName": "test",
+        "State": "TT",
+        "PostCode": 89098,
+        "Tel": "(000)- 000-0000",
+        "Favorite": true,
+        "AccountId": 2
+      }
     }
-  }
-}
+   ]

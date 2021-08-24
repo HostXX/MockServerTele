@@ -1,1 +1,8 @@
-module.exports = request.body.indexOf('docientos') !== -1 ? 'HTTP/1.1 200 OK' : 'HTTP/1.1 400 Bad request'
+module.exports = (function (request) {
+   return {
+        "Id" : "1",
+        "Name" : "billy test",
+        "methodName" : "Get"
+    }
+   
+})()

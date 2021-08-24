@@ -3,10 +3,10 @@ const http = require('http');
 const mockserver = require('mockserver');
 // logger.loggerOff();
 
-const PORT = process.env.PORT || 9002;
+const PORT = process.env.PORT || 8000;
 
 mockserver.headers = ['Authorization'];
 
 logger.debug('Server Started');
 
-http.createServer(mockserver('./mocks')).listen(PORT,()=>console.log('Listening on port: '+PORT));
+http.createServer(mockserver('./mocks','verbose')).listen(PORT,()=>console.log('Listening on port: '+ PORT));
